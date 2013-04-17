@@ -32,8 +32,8 @@ is:
     - laugardaginn
     formats:
       default: ! '%d.%m.%Y'
-      long: ! '%e. %B %Y'
-      short: ! '%e. %b'
+      long: ! '%-d. %B %Y'
+      short: ! '%-d. %b'
     month_names:
     - 
     - janúar
@@ -201,8 +201,8 @@ is:
     am: ''
     formats:
       default: ! '%A %e. %B %Y kl. %H:%M'
-      long: ! '%A %e. %B %Y kl. %H:%M'
-      short: ! '%e. %B kl. %H:%M'
+      long: ! '%A %-d. %B %Y kl. %H:%M'
+      short: ! '%-d. %B kl. %H:%M'
     pm: ''
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

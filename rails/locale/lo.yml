@@ -32,8 +32,8 @@ lo:
     - ເສົາ
     formats:
       default: ! '%d-%m-%Y'
-      long: ! '%e %B %Y'
-      short: ! '%e %b'
+      long: ! '%-d %B %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - ມັງກອນ
@@ -222,8 +222,8 @@ lo:
     am: ''
     formats:
       default: ! '%a %d %b %Y %H:%M:%S %z'
-      long: ! '%d %B %Y %H:%M น.'
-      short: ! '%d %b %H:%M น.'
+      long: ! '%-d %B %Y %H:%M น.'
+      short: ! '%-d %b %H:%M น.'
     pm: ''
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

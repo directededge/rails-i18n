@@ -32,8 +32,8 @@ el:
     - Σάββατο
     formats:
       default: ! '%d/%m/%Y'
-      long: ! '%e %B %Y'
-      short: ! '%d %b'
+      long: ! '%-d %B %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - Ιανουάριος
@@ -193,8 +193,8 @@ el:
     am: π.μ.
     formats:
       default: ! '%d %B %Y %H:%M'
-      long: ! '%A %d %B %Y %H:%M:%S %Z'
-      short: ! '%d %b %H:%M'
+      long: ! '%A %-d %B %Y %H:%M:%S %Z'
+      short: ! '%-d %b %H:%M'
     pm: μ.μ.
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

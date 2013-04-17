@@ -32,8 +32,8 @@ he:
     - שבת
     formats:
       default: ! '%d-%m-%Y'
-      long: ! '%e ב%B, %Y'
-      short: ! '%e %b'
+      long: ! '%-d ב%B, %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - ינואר
@@ -189,8 +189,8 @@ he:
     am: am
     formats:
       default: ! '%a %d %b %H:%M:%S %Z %Y'
-      long: ! '%d ב%B, %Y %H:%M'
-      short: ! '%d %b %H:%M'
+      long: ! '%-d ב%B, %Y %H:%M'
+      short: ! '%-d %b %H:%M'
     pm: pm
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

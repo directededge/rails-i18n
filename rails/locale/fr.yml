@@ -10,8 +10,8 @@ fr:
   date:
     formats:
       default: "%d/%m/%Y"
-      short: "%e %b"
-      long: "%e %B %Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
     day_names:
       - dimanche
       - lundi
@@ -64,8 +64,8 @@ fr:
   time:
     formats:
       default: "%d %B %Y %H:%M:%S"
-      short: "%d %b %H:%M"
-      long: "%A %d %B %Y %H:%M"
+      short: "%-d %b %H:%M"
+      long: "%A %-d %B %Y %H:%M"
     am: 'am'
     pm: 'pm'
 

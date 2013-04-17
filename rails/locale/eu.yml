@@ -32,8 +32,8 @@ eu:
     - Larunbata
     formats:
       default: ! '%Y/%m/%e'
-      long: ! '%Y(e)ko %Bk %e'
-      short: ! '%b %e'
+      long: ! '%Y(e)ko %Bk %-d'
+      short: ! '%b %-d'
     month_names:
     - 
     - Urtarrila
@@ -187,8 +187,8 @@ eu:
     am: am
     formats:
       default: ! '%A, %Y(e)ko %Bren %e %H:%M:%S %z'
-      long: ! '%Y(e)ko %Bren %e,  %H:%M'
-      short: ! '%b %e, %H:%M'
+      long: ! '%Y(e)ko %Bren %-d,  %H:%M'
+      short: ! '%b %-d, %H:%M'
     pm: pm
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

@@ -32,8 +32,8 @@ uz:
     - shanba
     formats:
       default: ! '%d.%m.%Y'
-      long: ! '%d %B %Y'
-      short: ! '%d %b'
+      long: ! '%-d %B %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - yanvar
@@ -245,8 +245,8 @@ uz:
     am: ertalab
     formats:
       default: ! '%a, %d %b %Y, %H:%M:%S %z'
-      long: ! '%d %B %Y, %H:%M'
-      short: ! '%d %b, %H:%M'
+      long: ! '%-d %B %Y, %H:%M'
+      short: ! '%-d %b, %H:%M'
     pm: kechasi
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

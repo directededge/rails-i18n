@@ -32,8 +32,8 @@ ja:
     - 土曜日
     formats:
       default: ! '%Y/%m/%d'
-      long: ! '%Y年%m月%d日(%a)'
-      short: ! '%m/%d'
+      long: ! '%Y年%m月%-d日(%a)'
+      short: ! '%m/%-d'
     month_names:
     - 
     - 1月
@@ -185,8 +185,8 @@ ja:
     am: 午前
     formats:
       default: ! '%Y/%m/%d %H:%M:%S'
-      long: ! '%Y年%m月%d日(%a) %H時%M分%S秒 %z'
-      short: ! '%y/%m/%d %H:%M'
+      long: ! '%Y年%m月%-d日(%a) %H時%M分%S秒 %z'
+      short: ! '%y/%m/%-d %H:%M'
     pm: 午後
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

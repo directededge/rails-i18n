@@ -32,8 +32,8 @@ hr:
     - Subota
     formats:
       default: ! '%d.%m.%Y.'
-      long: ! '%B %e, %Y'
-      short: ! '%e %b'
+      long: ! '%B %-d, %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - Siječanj
@@ -225,8 +225,8 @@ hr:
     am: AM
     formats:
       default: ! '%a %b %d %H:%M:%S %Z %Y'
-      long: ! '%B %d, %Y %H:%M'
-      short: ! '%d %b %H:%M'
+      long: ! '%B %-d, %Y %H:%M'
+      short: ! '%-d %b %H:%M'
     pm: PM
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

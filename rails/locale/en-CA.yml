@@ -41,8 +41,8 @@ en-CA:
     - Saturday
     formats:
       default: ! '%d-%m-%Y'
-      long: ! '%B %d, %Y'
-      short: ! '%d %b'
+      long: ! '%B %-d, %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - January
@@ -202,8 +202,8 @@ en-CA:
     am: am
     formats:
       default: ! '%a, %d %b %Y %H:%M:%S %z'
-      long: ! '%B %d, %Y %H:%M'
-      short: ! '%d %b %H:%M'
+      long: ! '%B %-d, %Y %H:%M'
+      short: ! '%-d %b %H:%M'
     pm: pm
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

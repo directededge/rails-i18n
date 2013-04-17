@@ -32,8 +32,8 @@ tr:
     - Cumartesi
     formats:
       default: ! '%d.%m.%Y'
-      long: ! '%e %B %Y, %A'
-      short: ! '%e %b'
+      long: ! '%-d %B %Y, %A'
+      short: ! '%-d %b'
     month_names:
     -
     - Ocak
@@ -187,8 +187,8 @@ tr:
     am: öğleden önce
     formats:
       default: ! '%a %d.%b.%y %H:%M'
-      long: ! '%e %B %Y, %A, %H:%M'
-      short: ! '%e %B, %H:%M'
+      long: ! '%-d %B %Y, %A, %H:%M'
+      short: ! '%-d %B, %H:%M'
     pm: öğleden sonra
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

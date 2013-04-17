@@ -32,8 +32,8 @@ lv:
     - sestdiena
     formats:
       default: ! '%d.%m.%Y.'
-      long: ! '%Y. gada %e. %B'
-      short: ! '%e. %B'
+      long: ! '%Y. gada %-d. %B'
+      short: ! '%-d. %B'
     month_names:
     - 
     - janvārī
@@ -224,8 +224,8 @@ lv:
     am: priekšpusdiena
     formats:
       default: ! '%Y. gada %e. %B, %H:%M'
-      long: ! '%Y. gada %e. %B, %H:%M:%S'
-      short: ! '%d.%m.%Y., %H:%M'
+      long: ! '%Y. gada %-d. %B, %H:%M:%S'
+      short: ! '%-d.%m.%Y., %H:%M'
     pm: pēcpusdiena
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

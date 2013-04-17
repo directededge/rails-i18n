@@ -32,8 +32,8 @@ gl:
     - Sábado
     formats:
       default: ! '%e/%m/%Y'
-      long: ! '%A %e de %B de %Y'
-      short: ! '%e %b'
+      long: ! '%A %-d de %B de %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - Xaneiro
@@ -166,8 +166,8 @@ gl:
     am: ''
     formats:
       default: ! '%A, %e de %B de %Y ás %H:%M'
-      long: ! '%A %e de %B de %Y ás %H:%M'
-      short: ! '%e/%m, %H:%M'
+      long: ! '%A %-d de %B de %Y ás %H:%M'
+      short: ! '%-d/%m, %H:%M'
     pm: ''
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

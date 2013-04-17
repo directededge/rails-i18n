@@ -10,8 +10,8 @@
   date:
     formats:
       default: "%d/%m/%Y"
-      short: ika-%d ng %b
-      long: ika-%d ng %B, %Y
+      short: ika-%-d ng %b
+      long: ika-%-d ng %B, %Y
 
     day_names:
       - Linggo
@@ -69,8 +69,8 @@
   time:
     formats:
       default: "%A, ika-%d ng %B ng %Y %H:%M:%S %z"
-      short: "%d ng %b %H:%M"
-      long: "ika-%d ng %B ng %Y %H:%M"
+      short: "%-d ng %b %H:%M"
+      long: "ika-%-d ng %B ng %Y %H:%M"
     am: AM
     pm: PM
 

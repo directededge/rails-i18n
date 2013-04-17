@@ -32,8 +32,8 @@ rm:
     - sonda
     formats:
       default: ! '%d.%m.%Y'
-      long: ! '%e. %B %Y'
-      short: ! '%e. %b'
+      long: ! '%-d. %B %Y'
+      short: ! '%-d. %b'
     month_names:
     - 
     - schaner
@@ -218,8 +218,8 @@ rm:
     am: avantmezdi
     formats:
       default: ! '%A, %d. %B %Y, %H:%M Uhr'
-      long: ! '%A, %d. %B %Y, %H:%M Uhr'
-      short: ! '%d. %B, %H:%M Uhr'
+      long: ! '%A, %-d. %B %Y, %H:%M Uhr'
+      short: ! '%-d. %B, %H:%M Uhr'
     pm: suentermezdi
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

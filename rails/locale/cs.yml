@@ -32,8 +32,8 @@ cs:
     - Sobota
     formats:
       default: ! '%d. %m. %Y'
-      long: ! '%d. %B %Y'
-      short: ! '%d %b'
+      long: ! '%-d. %B %Y'
+      short: ! '%-d %b'
     month_names:
     - 
     - Leden
@@ -199,8 +199,8 @@ cs:
     am: am
     formats:
       default: ! '%a %d. %B %Y %H:%M %z'
-      long: ! '%A %d. %B %Y %H:%M'
-      short: ! '%d. %m. %H:%M'
+      long: ! '%A %-d. %B %Y %H:%M'
+      short: ! '%-d. %m. %H:%M'
     pm: pm
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

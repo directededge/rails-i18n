@@ -32,8 +32,8 @@ fa:
     - شنبه
     formats:
       default: ! '%Y/%m/%d'
-      long: ! '%e %B %Y'
-      short: ! '%m/%d'
+      long: ! '%-d %B %Y'
+      short: ! '%m/%-d'
     month_names:
     - 
     - ژانویه
@@ -187,8 +187,8 @@ fa:
     am: قبل از ظهر
     formats:
       default: ! '%A، %e %B %Y، ساعت %H:%M:%S (%Z)'
-      long: ! '%e %B %Y، ساعت %H:%M'
-      short: ! '%e %B، ساعت %H:%M'
+      long: ! '%-d %B %Y، ساعت %H:%M'
+      short: ! '%-d %B، ساعت %H:%M'
     pm: بعد از ظهر
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

@@ -32,8 +32,8 @@ hu:
     - szombat
     formats:
       default: ! '%Y.%m.%d.'
-      long: ! '%Y. %B %e.'
-      short: ! '%b %e.'
+      long: ! '%Y. %B %-d.'
+      short: ! '%b %-d.'
     month_names:
     - 
     - január
@@ -187,8 +187,8 @@ hu:
     am: de.
     formats:
       default: ! '%Y. %b %e., %H:%M'
-      long: ! '%Y. %B %e., %A, %H:%M'
-      short: ! '%b %e., %H:%M'
+      long: ! '%Y. %B %-d., %A, %H:%M'
+      short: ! '%b %-d., %H:%M'
     pm: du.
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
